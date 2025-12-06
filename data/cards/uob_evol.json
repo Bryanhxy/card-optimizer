@@ -1,0 +1,46 @@
+{
+  "card_id": "uob_evol",
+  "card_name": "UOB EVOL",
+  "bank": "UOB",
+  "network": "Visa",
+  "color": "#0B3B8E",
+  "image": "/images/cards/uob_evol.png",
+  "currency": "cashback",
+  "currency_name": "Cashback",
+  "annual_fee": 0,
+  "min_spend_monthly": 600,
+  "rules": [
+    {
+      "rule_id": "mobile_contactless_8pct",
+      "description": "Mobile contactless (Grab, food delivery, streaming, transport)",
+      "rate": 8,
+      "rate_type": "cashback_percent",
+      "conditions": {
+        "channels": ["online"],
+        "mcc_whitelist": [4121, 5811, 5812, 5813, 5814, 4814, 4816, 5815, 5816, 5817, 5968],
+        "requires_mobile_wallet": true
+      },
+      "caps": { "max_cashback_monthly": 60, "cap_type": "category" }
+    },
+    {
+      "rule_id": "visa_contactless_3pct",
+      "description": "Visa contactless in-store",
+      "rate": 3,
+      "rate_type": "cashback_percent",
+      "conditions": {
+        "channels": ["contactless"],
+        "mcc_whitelist_mode": "all_except_blacklist"
+      },
+      "caps": { "max_cashback_monthly": 30, "cap_type": "category" }
+    }
+  ],
+  "base_rate": { "rate": 0.3, "rate_type": "cashback_percent" },
+  "global_mcc_blacklist": [4829, 4900, 5199, 5960, 6010, 6011, 6012, 6050, 6051, 6211, 6300, 6513, 6529, 6530, 6532, 6533, 6534, 6536, 6537, 6538, 6540, 6555, 7349, 7511, 7523, 7800, 7801, 7995, 8062, 8211, 8220, 8241, 8244, 8249, 8299, 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405, 9754],
+  "notes": [
+    "Minimum $600 spend/month required to earn any cashback",
+    "8% requires mobile wallet payment (Apple Pay, Google Pay, Samsung Pay)",
+    "3% for physical Visa contactless tap",
+    "Caps are per category, not shared",
+    "Points expiry: N/A (cashback)"
+  ]
+}
