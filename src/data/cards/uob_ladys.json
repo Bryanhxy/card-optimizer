@@ -1,0 +1,56 @@
+{
+  "card_id": "uob_ladys",
+  "earn_block": 5,
+  "card_name": "UOB Lady's",
+  "bank": "UOB",
+  "network": "Mastercard",
+  "color": "#D81B60",
+  "image": "/images/cards/uob_ladys.png",
+  "currency": "points",
+  "currency_name": "UNI$",
+  "annual_fee": 196.20,
+  "annual_fee_waiver_first_year": true,
+
+  "configurable_category": {
+    "label": "Bonus Category",
+    "options": [
+      { "id": "fashion", "name": "Fashion", "mcc_whitelist": [5611, 5621, 5631, 5641, 5651, 5655, 5661, 5681, 5691, 5699, 5948, 5949] },
+      { "id": "dining", "name": "Dining", "mcc_whitelist": [5811, 5812, 5813, 5814] },
+      { "id": "travel", "name": "Travel", "mcc_whitelist": [3000, 3001, 3002, 3003, 4411, 4511, 4722, 4723, 7011, 7012, 7033] },
+      { "id": "beauty", "name": "Beauty & Wellness", "mcc_whitelist": [5977, 7230, 7297, 7298, 7941, 7991, 7992, 7997, 7999, 8011, 8021, 8031, 8041, 8042, 8043, 8049, 8050] },
+      { "id": "family", "name": "Family", "mcc_whitelist": [5200, 5261, 5300, 5310, 5311, 5331, 5399, 5411, 5499, 5912, 5941, 5942, 5943, 5944, 5945, 5946, 5947, 5970, 5995] },
+      { "id": "transport", "name": "Transport", "mcc_whitelist": [4011, 4111, 4112, 4121, 4131, 4784, 5013, 5172, 5511, 5521, 5531, 5532, 5533, 5541, 5542, 5551, 5561, 5571, 5592, 5598, 5599, 7512, 7513, 7519, 7523, 7531, 7534, 7535, 7538, 7542, 7549] },
+      { "id": "entertainment", "name": "Entertainment", "mcc_whitelist": [5735, 5815, 5816, 5817, 5818, 7829, 7832, 7833, 7841, 7911, 7922, 7929, 7932, 7933, 7941, 7991, 7992, 7993, 7994, 7996, 7998, 7999] }
+    ],
+    "default": "dining"
+  },
+
+  "rules": [
+    {
+      "rule_id": "selected_category_10x",
+      "description": "10X UNI$ on selected category (4 mpd)",
+      "rate": 10,
+      "conditions": {
+        "channels": ["online", "offline", "contactless"],
+        "uses_configurable_category": true
+      },
+      "caps": {
+        "max_qualifying_spend_monthly": 1000,
+        "cap_type": "category"
+      }
+    }
+  ],
+  "base_rate": { "rate": 1 },
+  "global_mcc_blacklist": [4829, 4900, 5199, 5960, 6010, 6011, 6012, 6050, 6051, 6211, 6300, 6513, 6529, 6530, 6532, 6533, 6534, 6536, 6537, 6538, 6540, 6555, 7349, 7800, 7801, 7995, 8062, 8211, 8220, 8241, 8244, 8249, 8299, 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405, 9754],
+  "conversions": {
+    "krisflyer": { "ratio": 0.5 }
+  },
+  "notes": [
+    "10X UNI$ (4 mpd) on one selected category",
+    "Category can be changed every quarter",
+    "$1,000 monthly cap for bonus spend",
+    "Earns in $5 blocks",
+    "Can pair with UOB Lady's Savings for up to 25X (10 mpd)"
+  ],
+  "points_expiry": "2 years"
+}

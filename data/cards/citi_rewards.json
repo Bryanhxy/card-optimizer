@@ -1,0 +1,50 @@
+{
+  "card_id": "citi_rewards",
+  "card_name": "Citi Rewards",
+  "bank": "Citibank",
+  "network": "Mastercard/Visa",
+  "color": "#003B70",
+  "image": "/images/cards/citi_rewards.png",
+  "currency": "points",
+  "currency_name": "Citi ThankYou Points",
+  "annual_fee": 196.20,
+  "annual_fee_waiver_first_year": true,
+  "rules": [
+    {
+      "rule_id": "shopping_offline",
+      "description": "In-store shopping (clothing/dept stores)",
+      "rate": 10,
+      "conditions": {
+        "channels": ["offline", "contactless"],
+        "mcc_whitelist": [5311, 5611, 5621, 5631, 5641, 5651, 5655, 5661, 5691, 5699, 5948]
+      },
+      "caps": { "max_qualifying_spend_monthly": 1000, "cap_type": "shared", "cap_period": "statement_month" }
+    },
+    {
+      "rule_id": "online_general",
+      "description": "Online retail (excl. travel)",
+      "rate": 10,
+      "conditions": {
+        "channels": ["online"],
+        "mcc_whitelist_mode": "all_except_blacklist",
+        "excludes_travel": true,
+        "excludes_mobile_wallet_in_app": true
+      },
+      "caps": { "max_qualifying_spend_monthly": 1000, "cap_type": "shared", "cap_period": "statement_month" }
+    }
+  ],
+  "base_rate": { "rate": 1 },
+  "travel_mcc_blacklist_ranges": [
+    {"start": 3000, "end": 3350},
+    {"start": 3351, "end": 3500},
+    {"start": 3501, "end": 3999}
+  ],
+  "travel_mcc_blacklist": [4111, 4112, 4411, 4511, 4722, 4723, 4789, 5962, 7011, 7012, 7512],
+  "global_mcc_blacklist": [4829, 4900, 5199, 5960, 5993, 6012, 6050, 6051, 6211, 6300, 6513, 6529, 6530, 6534, 6540, 7349, 7511, 7523, 7800, 7995, 8062, 8211, 8220, 8241, 8244, 8249, 8299, 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405, 9754],
+  "excluded_merchants": ["AXS", "BUS/MRT", "EZ-link", "SAM", "SIMPLYGO", "TRANSIT", "Transit Link", "Youtrip"],
+  "conversions": {
+    "krisflyer": { "ratio": 2.5 }
+  },
+  "notes": ["Cap per STATEMENT month (not calendar)", "Travel online transactions excluded", "In-app mobile wallet excluded", "Contactless at physical stores DOES earn if MCC qualifies"],
+  "points_expiry": "5 years"
+}

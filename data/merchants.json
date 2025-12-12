@@ -1,0 +1,82 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-01-01",
+  "description": "Merchant-specific entries for cards with merchant-based bonuses",
+  
+  "merchants": {
+    "Groceries & Supermarkets": {
+      "Cold Storage": { "mcc": 5411, "tags": ["coldstorage", "cs", "groceries", "supermarket"] },
+      "CS Fresh": { "mcc": 5411, "tags": ["csfresh", "groceries", "supermarket"] },
+      "Giant": { "mcc": 5411, "tags": ["giant", "groceries", "supermarket"] },
+      "NTUC FairPrice": { "mcc": 5411, "tags": ["ntuc", "fairprice", "groceries", "supermarket"] },
+      "NTUC Unity": { "mcc": 5912, "tags": ["ntuc", "unity", "pharmacy"] }
+    },
+    
+    "Health & Beauty": {
+      "Guardian": { "mcc": 5912, "tags": ["guardian", "pharmacy", "health", "beauty"] },
+      "Watsons": { "mcc": 5912, "tags": ["watsons", "pharmacy", "health", "beauty"] },
+      "Sephora": { "mcc": 5977, "tags": ["sephora", "cosmetics", "beauty", "makeup"] }
+    },
+    
+    "Convenience Stores": {
+      "7-Eleven": { "mcc": 5411, "tags": ["7eleven", "7-11", "seveneleven", "convenience", "711"] }
+    },
+    
+    "Food & Beverage": {
+      "BreadTalk": { "mcc": 5462, "tags": ["breadtalk", "bakery", "bread"] },
+      "Toast Box": { "mcc": 5812, "tags": ["toastbox", "cafe", "coffee", "kaya"] },
+      "Food Republic": { "mcc": 5812, "tags": ["foodrepublic", "foodcourt", "hawker"] },
+      "Delifrance": { "mcc": 5812, "tags": ["delifrance", "cafe", "bakery", "french"] },
+      "Chagee": { "mcc": 5814, "tags": ["chagee", "cha gee"]}
+    },
+    
+    "Food Delivery": {
+      "foodpanda": { "mcc": 5812, "tags": ["foodpanda", "panda", "delivery", "food"] },
+      "GrabFood": { "mcc": 5812, "tags": ["grabfood", "grab", "delivery", "food"] },
+      "Deliveroo": { "mcc": 5812, "tags": ["deliveroo", "delivery", "food"] }
+    },
+    
+    "Transport & Ride-hailing": {
+      "Grab": { "mcc": 4121, "tags": ["grab", "taxi", "ride", "transport"] },
+      "Gojek": { "mcc": 4121, "tags": ["gojek", "taxi", "ride", "transport"] },
+      "ComfortDelGro": { "mcc": 4121, "tags": ["comfort", "citycab", "delgro", "taxi"] },
+      "TADA": { "mcc": 4121, "tags": ["tada", "taxi", "ride"] },
+      "Ryde": { "mcc": 4121, "tags": ["ryde", "taxi", "ride"] },
+      "SimplyGo": { "mcc": 4111, "tags": ["simplygo", "bus", "mrt", "train", "transit", "transport"] },
+      "BUS/MRT": { "mcc": 4111, "tags": ["bus", "mrt", "train", "transit", "public transport"] }
+    },
+    
+    "Online Shopping": {
+      "Shopee": { "mcc": 5262, "tags": ["shopee", "ecommerce", "online", "shopping"] },
+      "Lazada": { "mcc": 5262, "tags": ["lazada", "ecommerce", "online", "shopping"] },
+      "Qoo10": { "mcc": 5262, "tags": ["qoo10", "ecommerce", "online", "shopping"] },
+      "Amazon": { "mcc": 5262, "tags": ["amazon", "ecommerce", "online", "shopping"] },
+      "Taobao": { "mcc": 5262, "tags": ["taobao", "ecommerce", "online", "shopping", "china"] },
+      "AliExpress": { "mcc": 5262, "tags": ["aliexpress", "ali", "ecommerce", "online", "shopping"] },
+      "Alibaba": { "mcc": 5262, "tags": ["alibaba", "ecommerce", "online", "shopping", "b2b"] },
+      "TikTok Shop": { "mcc": 5262, "tags": ["tiktok", "tiktokshop", "ecommerce", "online", "shopping"] },
+      "Ezbuy": { "mcc": 5262, "tags": ["ezbuy", "ecommerce", "online", "shopping"] },
+      "Daigou": { "mcc": 5262, "tags": ["daigou", "ecommerce", "online", "shopping"] }
+    },
+    
+    "Department Stores & Retail": {
+      "IKEA": { "mcc": 5712, "tags": ["ikea", "furniture", "home", "retail"] },
+      "Mustafa Centre": { "mcc": 5311, "tags": ["mustafa", "department", "retail", "24hours"] }
+    },
+    
+    "Attractions & Entertainment": {
+      "Mandai Zoo": { "mcc": 7999, "tags": ["mandai", "zoo", "singapore zoo", "wildlife", "attraction", "safari", "riverwonders", "nightsafari", "birdparadise"] },
+      "Bird Paradise": { "mcc": 7999, "tags": ["bird paradise", "jurong bird park", "mandai", "attraction"] },
+      "River Wonders": { "mcc": 7999, "tags": ["river wonders", "river safari", "mandai", "attraction"] }
+    },
+    
+    "Telco": {
+      "Singtel": { "mcc": 4814, "tags": ["singtel", "telco", "mobile", "phone", "broadband"] }
+    },
+    
+    "Others": {
+      "Eu Yan Sang": { "mcc": 5499, "tags": ["euyansang", "tcm", "chinese medicine", "health"] },
+      "Noel Gifts": { "mcc": 5947, "tags": ["noel", "gifts", "hampers", "flowers"] }
+    }
+  }
+}

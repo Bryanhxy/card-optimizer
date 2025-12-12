@@ -1,0 +1,912 @@
+{
+  "categories": {
+    "Dining": {
+      "Restaurants": {
+        "mcc": 5812,
+        "tags": [
+          "food", "senryo", "tangled", "taiersuancaiandfish", "taiersuancai&fish", "songfabakkutteh", "sushiro", "souprestaurant", "oldstreetbakkutteh", "funtoast", "paul", "paradisedynasty", "morganfields", "morganfield's", "momnstercurry", "keikaisendon", "hoshinocoffee", "gongyuangmalatang", "goangpratunamchickenrice", "go-angpratunamchickenrice", "fulinrestaurant", "crystal jade", "coucouhotpotbrewtea", "bulgogisyo", "aburien", "balithai", "astonsspecialties", "aston'sspecialties", "aburi-en", "seoraejib", "sukiya", "foodpanda", "deliveroo", "oddleeats", "grabfood", "zhangliangmalatang", "yakunkayatoast", "yakinikulike", "yakinikugo", "xiangxianghunan", "whitebeehoonrestaurant", "whiterestaurant", "tuktukcha", "toastbox", "souperstar", "toriq", "shabusai", "makisan", "penangculture", "pocha", "paradisehotpot", "maki-san", "lenu", "llaollao", "eat", "jacksplace", "jack'splace", "fruitparadise", "chichasanchen", "boontongkee", "cedele", "restaurant", "cantonparadise", "dining", "cafe", "bistro", "lunch", "dinner","dintaifung", "haidilao", "ichiban", "genkisushi", "dianxiaoer", "putien","saizeriya", "sushitei", "swensens", "sushiro", "souprestaurant","jumboseafood", "laohuotang", "sushiexpress", "beautyinthepot","pizzahut", "songfabakkutteh", "crystaljade"
+        ]
+      },
+      "Bars & Nightclubs": {
+        "mcc": 5813,
+        "tags": [
+          "bar", "bars", "marche", "pub", "nightclub", "nightlife", "club", "speakeasy", "alcohol", "drinks", "beer", "wine", "cocktails", "happyhour"
+        ]
+      },
+      "Fast Food": {
+        "mcc": 5814,
+        "tags": [
+          "ajisenramen", "yewkee", "timhortons", "timhorton's", "sushiexpress", "shakeshack", "subway", "mrcoconut", "mr.coconut", "matchaya", "kopitarts", "kopi&tarts", "kopiandtarts", "longjohnssilvers", "longjohnsilvers", "longjohn'ssilvers", "isteaks", "jollibee", "composecoffee", "coffeesmith", "chagee", "bingxueteaandicecream", "bingxuetea&icecream", "astons", "aston's", "foodpanda", "deliveroo", "grabfood", "hollin", "zhangliangmalatang", "heytea", "tigersugar", "itea", "thealley", "ninefresh", "blackball", "moment", "themoment", "thewhaletea", "whaletea", "xinfutang", "alley", "milksha", "playmade", "tuktukchaexpress", "wokhey", "coffeebeanandtealeaf", "jianbo", "coffeebean&tealeaf", "pezzo", "shiokburger", "stuff'd", "stuffd", "popeyes", "pizzahut", "dominos", "canadianpizza", "pepperlunch", "oldchangkee", "pastago", "mosburger", "mrbean", "mrcoconut", "mr.coconut", "liho", "luckincoffee", "koi", "lenunoodlebar", "kopitiam", "kenangancoffee", "enciktan", "chichasanchen", "auntieanne's", "auntieannes", "fastfood", "takeaway", "quickservice", "drive_thru", "burger", "burgers", "friedchicken", "pizza", "mcdonalds", "mcd", "burgerking", "bk", "kfc", "subway", "starbucks", "jollibee", "mosburger", "popeyes", "shakeshack", "fiveguys"
+        ]
+      },
+      "Bakeries": {
+        "mcc": 5462,
+        "tags": [
+          "bakery", "emicakes", "crystaljademybread", "dunkindonuts", "polarpuffsandcakes", "polarpuffs&cakes", "krispykreme", "fourleaves", "Chateraise", "bakeries", "bread", "buns", "cakes", "pastries", "dessert", "patisserie", "boulangerie", "fourleaves", "twelvecupcakes", "chinmeiseng", "breadtalk", "bengawansolo"
+        ]
+      },
+      "Candy & Confectionery": {
+        "mcc": 5441,
+        "tags": [
+          "candy", "sweets", "confectionery", "chocolate", "snacks", "dessert", "sweetshop", "heavenlywines", "venchi", "godiva"
+        ]
+      },
+      "Caterers": {
+        "mcc": 5811,
+        "tags": [
+          "caterer", "catering", "banquet", "buffet", "partyfood", "eventcatering", "corporatecatering", "neogarden", "rasel", "orangeclove"
+        ]
+      }
+    },
+    "Groceries": {
+      "Supermarkets": {
+        "mcc": 5411,
+        "tags": [
+          "groceries", "grocery", "supermarket", "supermarkets", "hypermarket", "household", "freshfood", "produce", "fairprice", "ntuc", "fairpricefinest", "fairpricextra", "coldstorage", "giant", "shengsiong", "dondondonki", "donki", "meidiya", "littlefarms", "marketplace", "jasonsdeli", "primemarket", "prime", "ryansgrocery", "haomart", "redmart"
+        ]
+      },
+      "Convenience Stores": {
+        "mcc": 5499,
+        "tags": [
+          "conveniencestore", "deliveroo", "grabfood", "foodpanda", "hockhuatonic", "famousamos", "euyangsang", "crave", "beechenghiang", "convenience", "minimart", "cornerstore", "snacks", "drinks", "7eleven", "7_11", "7_11sg", "cheers", "esso_mart", "shell_select", "caltex_star_mart"
+        ]
+      },
+      "Dairy Stores": {
+        "mcc": 5451,
+        "tags": [
+          "dairy", "milk", "cheese", "yogurt", "butter", "creamery", "icecream", "gelato"
+        ]
+      }
+    },
+    "Shopping - Department": {
+      "Department Stores": {
+        "mcc": 5311,
+        "tags": [
+          "aliexpress", "aliexpressmall", "ezbuy", "ezbuy_mall", "tiktokshop", "tiktokmall", "taobao", "taobaomall", "qoo10", "qoo10mall", "amazon", "amazonsg", "amazonprime", "amazonretail", "shopee", "shopeemall", "lazada", "lazmall", "departmentstore", "lifestyle", "shopping", "mall", "takashimaya", "isetan", "bhg", "metro", "robinsons", "marksandspencer", "mns", "muji", "macys", "nordstrom", "bloomingdales", "saks", "johnlewis", "debenhams"
+        ]
+      },
+      "Discount Stores": {
+        "mcc": 5310,
+        "tags": [
+          "alibaba", "alibaba_b2b", "aliexpress", "aliexpresssg", "ezbuy", "ezbuysg", "ezbuyprime", "tiktokshop", "tiktok_sg", "taobao", "taobaosg", "qoo10", "qoo10sg", "amazon", "amazonwarehouse", "shopee", "shopeemall", "lazada", "lazmall", "discountstore", "discount", "budget", "bargains", "clearance", "dollarstore", "dollartree", "daisojapan", "daiso", "miniso", "valuedollar", "biglots", "target"
+        ]
+      },
+      "Variety Stores": {
+        "mcc": 5331,
+        "tags": [
+          "aliexpress", "aliexpresssg", "ezbuy", "ezbuysg", "tiktokshop", "tiktok_sg", "taobao", "taobaosg", "qoo10", "qoo10sg", "shopee", "shopeesg", "lazada", "lazmall", "varietystore", "household", "generalstore", "bargainstore", "japanhome", "mrdiy", "value_shop", "daiso"
+        ]
+      },
+      "Wholesale Clubs": {
+        "mcc": 5300,
+        "tags": [
+          "wholesaleclub", "wholesale", "bulkbuy", "membershipstore", "costco", "samsclub", "bjswholesale", "metro_wholesale"
+        ]
+      },
+      "Duty Free": {
+        "mcc": 5309,
+        "tags": [
+          "dutyfree", "taxfree", "airportshopping", "travelretail", "dfs", "shilladutyfree", "lotte", "dufry"
+        ]
+      },
+      "Misc General Merchandise": {
+        "mcc": 5399,
+        "tags": [
+          "alibaba", "alibaba_b2b", "aliexpress", "aliexpresssg", "aliexpress_global", "alipay", "ezbuy", "ezbuysg", "ezbuyprime", "tiktokshop", "tiktok_sg", "tiktokmall", "taobao", "cainiao", "taobaosg", "taobao_global", "qoo10", "qoo10sg", "qprime", "amazon", "amazonsg", "amazonmarketplace", "shopee", "shopeemall", "shopeesg", "lazada", "lazmall", "lazada_sg", "generalmerchandise", "japanhome", "generalstore", "mixedgoods", "household", "muji", "uniqlo", "factoryoutlet", "marketstall", "bazaar"
+        ]
+      }
+    },
+    "Shopping - Clothing": {
+      "Men's Clothing": {
+        "mcc": 5611,
+        "tags": [
+          "mensclothing", "crocs", "menswear", "menfashion", "apparel", "shirts", "pants", "suits", "formalwear", "g2000", "brooksbrothers", "ralphlauren", "topman", "uniqlo"
+        ]
+      },
+      "Women's Clothing": {
+        "mcc": 5621,
+        "tags": [
+          "womensclothing", "iora", "womenswear", "womenfashion", "ladiesapparel", "dresses", "tops", "skirts", "blouse", "zara", "hm", "mango", "lovebonito", "forever21"
+        ]
+      },
+      "Women's Accessories": {
+        "mcc": 5631,
+        "tags": [
+          "accessories", "womensaccessories", "handbags", "jewellery", "scarves", "belts", "wallets", "charlesandkeith", "coach", "michaelkors", "katespade", "lovisa", "pandora"
+        ]
+      },
+      "Children's Wear": {
+        "mcc": 5641,
+        "tags": [
+          "kidsclothing", "kiddypalace", "childrenwear", "childrenclothing", "kidfashion", "babywear", "toddlers", "kidsapparel", "mothercare", "cottononkids", "oshkosh", "carters"
+        ]
+      },
+      "Family Clothing": {
+        "mcc": 5651,
+        "tags": [
+          "familyclothing", "familyapparel", "unisexclothing", "casualwear", "basicwear", "everydaywear", "uniqlo", "hm", "giordano", "cottonon", "bossini", "gap", "oldnavy"
+        ]
+      },
+      "Sports Apparel": {
+        "mcc": 5655,
+        "tags": [
+          "sportswear", "sportapparel", "athleisure", "gymclothes", "runninggear", "jersey", "activewear", "nike", "adidas", "puma", "underarmour", "decathlon", "lululemon"
+        ]
+      },
+      "Shoe Stores": {
+        "mcc": 5661,
+        "tags": [
+          "shoestore", "shoestores", "shoes", "footwear", "sneakers", "boots", "heels", "sandals", "footlocker", "skechers", "newbalance", "converse", "vans", "bata", "birkenstock"
+        ]
+      },
+      "Men's & Women's Clothing": {
+        "mcc": 5691,
+        "tags": [
+          "clothing", "yishion", "apparel", "fashion", "boutique", "unisex", "zara", "pullandbear", "bershka", "stradivarius", "uniqlo", "hm", "cottonon"
+        ]
+      },
+      "Misc Apparel": {
+        "mcc": 5699,
+        "tags": [
+          "apparel", "clothing", "fashion", "innerwear", "sleepwear", "lingerie", "victoriassecret", "lasenza", "oysho", "triumph", "muji", "shein", "supercuts"
+        ]
+      },
+      "Luggage & Leather": {
+        "mcc": 5948,
+        "tags": [
+          "luggage", "travelbag", "suitcase", "backpack", "leathergoods", "wallet", "belt", "samsonite", "tumi", "kipling", "rimowa"
+        ]
+      }
+    },
+    "Shopping - Electronics": {
+      "Electronics Stores": {
+        "mcc": 5732,
+        "tags": [
+          "electronics", "istudio", "tech", "gadgets", "appliances", "tv", "audio", "retail", "bestdenki", "challenger", "gaincity", "courts", "harveynorman", "audiohouse", "sony", "samsung", "lg", "bhphoto"
+        ]
+      },
+      "Computers & Peripherals": {
+        "mcc": 5045,
+        "tags": [
+          "computers", "pc", "laptop", "desktop", "peripherals", "keyboard", "mouse", "monitor", "gpu", "pcparts", "itstore", "aftershock", "dreamcore", "msi", "acer", "hp", "dell", "creative", "razer", "simlim"
+        ]
+      },
+      "Software Stores": {
+        "mcc": 5734,
+        "tags": [
+          "software", "apps", "licenses", "antivirus", "productivity", "microsoft", "office365", "adobe", "norton", "mcafee", "kaspersky", "steam", "epicgames"
+        ]
+      },
+      "Music & Instruments": {
+        "mcc": 5733,
+        "tags": [
+          "musicstore", "instrument", "instruments", "guitar", "piano", "drums", "recording", "studioequipment", "sweelee", "yamaha", "luthermusic", "musicbliss", "guitarcenter"
+        ]
+      },
+      "Record Shops": {
+        "mcc": 5735,
+        "tags": [
+          "recordstore", "records", "vinyl", "cd", "lp", "music", "hmv", "thatcdshop", "analogvault", "retrocrates"
+        ]
+      },
+      "Camera & Photo": {
+        "mcc": 5946,
+        "tags": [
+          "camera", "photography", "dslr", "mirrorless", "lens", "photo", "videography", "cathayphoto", "tkfoto", "alanphoto", "sonyalpha", "fujifilm"
+        ]
+      }
+    },
+    "Shopping - Home": {
+      "Furniture & Furnishings": {
+        "mcc": 5712,
+        "tags": [
+          "furniture", "slumberland", "osim", "seahorse", "ogawa", "homefurnishings", "decor", "interior", "homedesign", "sofa", "bed", "table", "chair", "mattress", "ikea", "hipvan", "castlery", "cellini", "fortytwo", "commune", "starliving", "harveynorman", "courts"
+        ]
+      },
+      "Appliances": {
+        "mcc": 5722,
+        "tags": [
+          "appliances", "homeappliance", "kitchenappliance", "fridge", "washer", "dryer", "oven", "aircon", "kitchen", "gaincity", "audiohouse", "megadiscountstore", "electrolux", "bosch", "harveynorman", "courts"
+        ]
+      },
+      "Hardware Stores": {
+        "mcc": 5251,
+        "tags": [
+          "hardware", "tools", "diy", "homeimprovement", "construction", "screws", "paint", "adhesive", "fixtures", "homefix", "hardwarecity", "selffix", "mrdiy"
+        ]
+      },
+      "Home Supply Warehouse": {
+        "mcc": 5200,
+        "tags": [
+          "homesupply", "warehouse", "bigbox", "homeimprovement", "renovation", "building", "supplies", "homedepot", "lowes", "bunnings", "menards"
+        ]
+      },
+      "Building Materials": {
+        "mcc": 5211,
+        "tags": [
+          "buildingmaterials", "lumber", "wood", "cement", "tiles", "flooring", "construction", "renovation", "plumbing", "sanitaryware"
+        ]
+      },
+      "Lawn & Garden": {
+        "mcc": 5261,
+        "tags": [
+          "garden", "gardening", "plants", "nursery", "landscape", "fertilizer", "soil", "pots", "hydroponics", "fareastflora", "candyfloriculture"
+        ]
+      }
+    },
+    "Shopping - Specialty": {
+      "Book Stores": {
+        "mcc": 5942,
+        "tags": [
+          "amazon", "kindle", "amazonsg", "amazonbooks", "bookstore", "books", "novel", "magazine", "stationery", "kinokuniya", "popular", "mph", "timesbookstore", "bookxcess", "barnesandnoble", "booksactually"
+        ]
+      },
+      "Office & School Supplies": {
+        "mcc": 5943,
+        "tags": [
+          "office", "smiggle", "schoolsupplies", "stationery", "printer", "ink", "paper", "desk", "student", "work", "popular", "officedepot", "staples", "typo"
+        ]
+      },
+      "Jewelry & Watches": {
+        "mcc": 5944,
+        "tags": [
+          "jewellery", "pohheng", "skjewellery", "jewelry", "watches", "luxury", "accessories", "tiffany", "cartier", "goldheart", "leehwa", "pandora", "swarovski", "rolex", "omega", "tagheuer", "iwc", "seiko"
+        ]
+      },
+      "Toys & Hobbies": {
+        "mcc": 5945,
+        "tags": [
+          "toys", "toyshop", "hobby", "boardgames", "modelkit", "collectibles", "figures", "lego", "toysrus", "mightyjaxx", "lego", "sparkle"
+        ]
+      },
+      "Gifts & Souvenirs": {
+        "mcc": 5947,
+        "tags": [
+          "gifts", "giftshop", "souvenir", "souvenirs", "tourist", "novelty", "museumshop", "tokyuhands", "typo"
+        ]
+      },
+      "Sporting Goods": {
+        "mcc": 5941,
+        "tags": [
+          "sportinggoods", "sports", "equipment", "ball", "racket", "outdoor", "camping", "gymgear", "decathlon", "royalsportinghouse", "sportslink", "underarmour"
+        ]
+      },
+      "Bicycle Shops": {
+        "mcc": 5940,
+        "tags": [
+          "bicycle", "bike", "cycling", "bikeshop", "treknology", "rodalink", "giantbicycles", "specialized", "brompton"
+        ]
+      },
+      "Pet Shops": {
+        "mcc": 5995,
+        "tags": [
+          "petshop", "petstore", "pets", "dog", "cat", "petfood", "aquarium", "reptiles", "petloverscentre", "polypet", "smartpaw", "perromart", "petsafari"
+        ]
+      },
+      "Pharmacies": {
+        "mcc": 5912,
+        "tags": [
+          "pharmacy", "lac", "drugstore", "medicine", "health", "prescription", "chemist", "watsons", "guardian", "unity", "boots", "cvs", "walgreens"
+        ]
+      },
+      "Florists": {
+        "mcc": 5992,
+        "tags": [
+          "florist", "flowers", "bouquet", "roses", "weddingflowers", "gift", "fareastflora", "xpressflower", "flowerchimp", "bloomback"
+        ]
+      },
+      "Art & Craft": {
+        "mcc": 5970,
+        "tags": [
+          "art", "craft", "hobby", "paint", "canvas", "diy", "scrapbook", "artfriend", "spotlight"
+        ]
+      },
+      "Cosmetics": {
+        "mcc": 5977,
+        "tags": [
+          "cosmetics", "venusbeauty", "makeup", "beauty", "skincare", "fragrance", "perfume", "sephora", "innisfree", "thefaceshop", "laneige", "shiseido", "mac", "etudehouse", "sasa", "thefaceshop", "faceshop"
+        ]
+      }
+    },
+    "Shopping - Online/Direct": {
+      "Catalog Merchants": {
+        "mcc": 5964,
+        "tags": [
+          "alibaba", "alibaba_b2b", "alipay", "aliexpress", "aliexpresssg", "alipay", "alibaba_ecommerce", "ezbuy", "ezbuysg", "palpay", "shopex", "tiktokshop", "tiktok", "bytedance", "tiktok_sg", "taobao", "taobaosg", "alipay", "qoo10", "qoo10sg", "amazon", "amazonmarketplace", "shopee", "shopeesg", "catalog", "mailorder", "onlineshopping", "directmarketing", "distance", "ecommerce", "amazon", "qoo10", "lazada", "llbean", "fingerhut"
+        ]
+      },
+      "Subscription Services": {
+        "mcc": 5968,
+        "tags": [
+          "subscription", "subscriptions", "recurring", "membership", "billing", "paymentplan", "netflix", "spotify", "disneyplus", "amazonprime", "hbomax", "youtube", "youtubepremium", "patreon", "substack", "googleone", "icloud", "vpn", "newspaper", "straitstimes", "newyorktimes"
+        ]
+      },
+      "Digital Goods - Books/Movies/Music": {
+        "mcc": 5815,
+        "tags": [
+          "digitalgoods", "ebooks", "movies", "music", "streaming", "onlinecontent", "itunes", "applemusic", "applemedia", "audible", "googleplay", "kindle", "spotify"
+        ]
+      },
+      "Digital Goods - Games": {
+        "mcc": 5816,
+        "tags": [
+          "digitalgoods", "games", "videogames", "gaming", "inapp", "onlinegaming", "gamecurrency", "steam", "playstation", "xbox", "nintendo", "origin", "riotgames", "genshin", "mobilegames"
+        ]
+      },
+      "Digital Goods - Apps": {
+        "mcc": 5817,
+        "tags": [
+          "digitalgoods", "apps", "mobileapp", "software", "inapp", "appstore", "googleplay", "subscription", "productivity", "tinder", "bumble", "notetaking", "cloudapps"
+        ]
+      }
+    },
+    "Transport - Ride Hailing": {
+      "Grab / Gojek / Taxi": {
+        "mcc": 4121,
+        "tags": [
+          "grab", "gojek", "ryde", "taxi", "comfortdelgro", "transcab", "smrttaxi", "uber", "lyft", "bolt", "didi", "ridehail", "ridehailing", "phv", "privatehire", "transport"
+        ]
+      }
+    },
+    "Transport - Public": {
+      "Bus / MRT / Ferry": {
+        "mcc": 4111,
+        "tags": [
+          "bus", "mrt", "lrt", "train", "ferry", "publictransport", "smrt", "sbstransit", "lta", "ezlink", "simplygo", "metro", "transit", "commuter"
+        ]
+      },
+      "Railways": {
+        "mcc": 4112,
+        "tags": [
+          "railway", "rail", "train", "intercity", "commuter", "amtrak", "eurostar", "jr", "japanrail", "ktm", "deutschebahn"
+        ]
+      }
+    },
+    "Transport - Other": {
+      "Courier Services": {
+        "mcc": 4215,
+        "tags": [
+          "courier", "delivery", "parcel", "logistics", "shipping", "express", "dhl", "fedex", "ups", "ninjavan", "jtexpress", "qxpress", "speedpost", "singpost", "lalamove"
+        ]
+      },
+      "Tolls": {
+        "mcc": 4784,
+        "tags": [
+          "toll", "tolls", "roadtoll", "expressway", "highway", "bridge", "erp", "citylink", "tunnel", "touchngo"
+        ]
+      }
+    },
+    "Travel - Airlines": {
+      "Singapore Airlines": {
+        "mcc": 3075,
+        "tags": [
+          "airline", "flight", "travel", "singaporeairlines", "sia", "sq", "krisflyer", "sg"
+        ]
+      },
+      "Cathay Pacific": {
+        "mcc": 3099,
+        "tags": [
+          "airline", "flight", "travel", "cathaypacific", "cx", "hongkong", "hkg"
+        ]
+      },
+      "Emirates": {
+        "mcc": 3026,
+        "tags": [
+          "airline", "flight", "travel", "emirates", "ek", "dubai", "uae", "middleeast"
+        ]
+      },
+      "Qatar Airways": {
+        "mcc": 3136,
+        "tags": [
+          "airline", "flight", "travel", "qatarairways", "qr", "doha", "middleeast"
+        ]
+      },
+      "Thai Airways": {
+        "mcc": 3077,
+        "tags": [
+          "airline", "flight", "travel", "thaiairways", "tg", "thailand", "bangkok", "bkk"
+        ]
+      },
+      "Malaysia Airlines": {
+        "mcc": 3100,
+        "tags": [
+          "airline", "flight", "travel", "malaysiaairlines", "mh", "malaysia", "kl"
+        ]
+      },
+      "EVA Air": {
+        "mcc": 3084,
+        "tags": [
+          "airline", "flight", "travel", "evaair", "br", "taiwan", "tpe"
+        ]
+      },
+      "ANA": {
+        "mcc": 3161,
+        "tags": [
+          "airline", "flight", "travel", "ana", "allnippon", "nh", "japan", "jp", "tokyo"
+        ]
+      },
+      "JAL": {
+        "mcc": 3006,
+        "tags": [
+          "airline", "flight", "travel", "jal", "japanairlines", "jl", "japan", "jp"
+        ]
+      },
+      "Korean Air": {
+        "mcc": 3082,
+        "tags": [
+          "airline", "flight", "travel", "koreanair", "ke", "korea", "kr", "seoul", "icn"
+        ]
+      },
+      "Qantas": {
+        "mcc": 3012,
+        "tags": [
+          "airline", "flight", "travel", "qantas", "qf", "australia", "au", "sydney"
+        ]
+      },
+      "British Airways": {
+        "mcc": 3005,
+        "tags": [
+          "airline", "flight", "travel", "britishairways", "ba", "uk", "london", "britain"
+        ]
+      },
+      "Lufthansa": {
+        "mcc": 3008,
+        "tags": [
+          "airline", "flight", "travel", "lufthansa", "lh", "germany", "de", "frankfurt"
+        ]
+      },
+      "Air France": {
+        "mcc": 3007,
+        "tags": [
+          "airline", "flight", "travel", "airfrance", "af", "france", "paris"
+        ]
+      },
+      "KLM": {
+        "mcc": 3010,
+        "tags": [
+          "airline", "flight", "travel", "klm", "kl", "dutch", "netherlands", "amsterdam"
+        ]
+      },
+      "Delta": {
+        "mcc": 3058,
+        "tags": [
+          "airline", "flight", "delta", "deltaair", "dl", "usa", "us"
+        ]
+      },
+      "United": {
+        "mcc": 3000,
+        "tags": [
+          "airline", "flight", "travel", "united", "ua", "unitedair", "usa", "us"
+        ]
+      },
+      "Jetstar": {
+        "mcc": 3079,
+        "tags": [
+          "airline", "flight", "travel", "jetstar", "lowcost", "budgetair", "3k", "jq", "australia", "sg"
+        ]
+      },
+      "Airlines (Generic)": {
+        "mcc": 4511,
+        "tags": [
+          "airline", "flight", "airfare", "ticket", "aviation", "travel", "budgetair", "international", "carrier"
+        ]
+      }
+    },
+    "Travel - Hotels": {
+      "Hotels (Generic)": {
+        "mcc": 7011,
+        "tags": [
+          "hotel", "hotels", "stay", "accommodation", "lodging", "booking", "travel", "resort", "room"
+        ]
+      },
+      "Marriott": {
+        "mcc": 3509,
+        "tags": [
+          "hotel", "marriott", "bonvoy", "stay", "accommodation", "jwmarriott", "courtyard", "ritz", "edition"
+        ]
+      },
+      "Hilton": {
+        "mcc": 3504,
+        "tags": [
+          "hotel", "hilton", "hiltonhonors", "doubletree", "waldorf", "hampton", "stay", "accommodation"
+        ]
+      },
+      "Hyatt": {
+        "mcc": 3640,
+        "tags": [
+          "hotel", "hyatt", "worldofhyatt", "grandhyatt", "hyattregency", "parkhyatt", "stay"
+        ]
+      },
+      "InterContinental": {
+        "mcc": 3512,
+        "tags": [
+          "hotel", "intercontinental", "ihg", "ihgrewards", "ic", "luxuryhotel", "stay"
+        ]
+      },
+      "Sheraton": {
+        "mcc": 3503,
+        "tags": [
+          "hotel", "sheraton", "marriott", "bonvoy", "stay"
+        ]
+      },
+      "Westin": {
+        "mcc": 3513,
+        "tags": [
+          "hotel", "westin", "marriott", "bonvoy", "wellness", "stay"
+        ]
+      },
+      "Ritz-Carlton": {
+        "mcc": 3710,
+        "tags": [
+          "hotel", "ritzcarlton", "ritz", "luxury", "marriott", "bonvoy", "stay"
+        ]
+      },
+      "Four Seasons": {
+        "mcc": 3543,
+        "tags": [
+          "hotel", "fourseasons", "luxury", "resort", "stay"
+        ]
+      },
+      "Shangri-La": {
+        "mcc": 3545,
+        "tags": [
+          "hotel", "shangrila", "goldencircle", "luxury", "asia", "resort", "stay"
+        ]
+      },
+      "Mandarin Oriental": {
+        "mcc": 3577,
+        "tags": [
+          "hotel", "mandarinoriental", "mo", "luxury", "resort", "stay"
+        ]
+      },
+      "Raffles": {
+        "mcc": 3790,
+        "tags": [
+          "hotel", "raffles", "singapore", "heritage", "luxury", "stay"
+        ]
+      },
+      "Fairmont": {
+        "mcc": 3590,
+        "tags": [
+          "hotel", "fairmont", "accor", "luxury", "stay"
+        ]
+      },
+      "Accor/Novotel": {
+        "mcc": 3642,
+        "tags": [
+          "hotel", "accor", "novotel", "sofitel", "mercure", "ibis", "allaccor", "stay"
+        ]
+      },
+      "Holiday Inn": {
+        "mcc": 3501,
+        "tags": [
+          "hotel", "holidayinn", "ihg", "budgethotel", "stay"
+        ]
+      },
+      "Crowne Plaza": {
+        "mcc": 3750,
+        "tags": [
+          "hotel", "crowneplaza", "ihg", "businesshotel", "stay"
+        ]
+      },
+      "Radisson": {
+        "mcc": 3649,
+        "tags": [
+          "hotel", "radisson", "radissonblu", "parkinn", "stay", "accommodation"
+        ]
+      }
+    },
+    "Travel - Car Rental": {
+      "Car Rental (Generic)": {
+        "mcc": 7512,
+        "tags": [
+          "carrental", "rentalcar", "carhire", "hirecar", "selfdrive", "rentacar", "airportcarrental", "travel"
+        ]
+      },
+      "Hertz": {
+        "mcc": 3357,
+        "tags": [
+          "carrental", "rentalcar", "carhire", "hirecar", "selfdrive", "hertz", "hertzrental", "rentacar"
+        ]
+      },
+      "Avis": {
+        "mcc": 3389,
+        "tags": [
+          "carrental", "rentalcar", "carhire", "hirecar", "selfdrive", "avis", "avisrental", "rentacar"
+        ]
+      },
+      "Budget": {
+        "mcc": 3366,
+        "tags": [
+          "carrental", "rentalcar", "carhire", "hirecar", "selfdrive", "budget", "budgetcarrental", "budgetrentacar"
+        ]
+      },
+      "Enterprise": {
+        "mcc": 3405,
+        "tags": [
+          "carrental", "rentalcar", "carhire", "hirecar", "selfdrive", "enterprise", "enterpriserentacar", "alamo", "national"
+        ]
+      },
+      "National": {
+        "mcc": 3393,
+        "tags": [
+          "carrental", "rentalcar", "carhire", "hirecar", "selfdrive", "national", "nationalcar", "nationalcarrental"
+        ]
+      }
+    },
+    "Travel - Cruises": {
+      "Cruise Lines": {
+        "mcc": 4411,
+        "tags": [
+          "cruise", "cruises", "cruiseline", "ship", "vacation", "seacruise", "royalcaribbean", "dreamcruises", "resortsworldcruises", "princesscruises", "carnival", "ncl", "norwegiancruise", "msc", "costacruises", "disneycruise"
+        ]
+      }
+    },
+    "Travel - Agencies": {
+      "Klook / Expedia / Agoda": {
+        "mcc": 4722,
+        "tags": [
+          "travelagency", "ota", "booking", "onlinebooking", "klook", "expedia", "agoda", "tripcom", "bookingcom", "airbnb", "traveloka", "hotelscom", "priceline", "kayak", "hotelbooking", "tours", "tickets", "activities", "pelago", "chanbrothers", "wtstravel", "ctctravel", "dynastytravel", "carrentals", "cruises"
+        ]
+      },
+      "Tour Operators": {
+        "mcc": 4723,
+        "tags": [
+          "touroperator", "tours", "package", "travelpackage", "grouptravel", "coach", "excursion", "daytour", "contiki", "trafalgar", "insightvacations", "cosmos", "localtour", "sightseeing"
+        ]
+      }
+    },
+    "Entertainment": {
+      "Movie Theaters": {
+        "mcc": 7832,
+        "tags": [
+          "movies", "cinema", "movietheater", "film", "imax", "ticket", "goldenvillage", "gv", "cathaycineplex", "shawtheatres", "filmgarde", "theprojector", "amc", "regal"
+        ]
+      },
+      "Amusement Parks": {
+        "mcc": 7996,
+        "tags": [
+          "amusementpark", "themepark", "rides", "rollercoaster", "funfair", "familyfun", "uss", "universalstudios", "adventurecove", "wildwildwet", "legoland", "disneyland", "disneyworld", "sixflags", "seaworld"
+        ]
+      },
+      "Tourist Attractions": {
+        "mcc": 7991,
+        "tags": [
+          "attraction", "touristattraction", "sightseeing", "landmark", "museum", "tickets", "experiences", "singaporeflyer", "gbtb", "gardensbythebay", "birdpark", "cablecar", "skypark", "londoneye", "alcatraz"
+        ]
+      },
+      "Aquariums & Zoos": {
+        "mcc": 7998,
+        "tags": [
+          "aquarium", "zoos", "animals", "wildlife", "family", "sea_aquarium", "singaporezoo", "riverwonders", "nightsafari", "snowcity"
+        ]
+      },
+      "Theaters & Tickets": {
+        "mcc": 7922,
+        "tags": [
+          "theatre", "theater", "musical", "concert", "liveevent", "ticketing", "show", "sistic", "ticketmaster", "broadway", "westend"
+        ]
+      },
+      "Bowling": {
+        "mcc": 7933,
+        "tags": [
+          "bowling", "bowlingalley", "sports", "recreation", "kbowling", "superbowl", "westwoodbowl"
+        ]
+      },
+      "Video Arcades": {
+        "mcc": 7994,
+        "tags": [
+          "arcade", "videoarcade", "games", "coinop", "entertainment", "timezone", "cowplaycowmoo", "virtualand", "zonex"
+        ]
+      }
+    },
+    "Fitness & Membership": {
+      "Gyms & Fitness": {
+        "mcc": 7997,
+        "tags": [
+          "gym", "gyms", "fitness", "workout", "training", "yoga", "pilates", "crossfit", "boxing", "anytimefitness", "fitnessfirst", "purefitness", "virginactive", "f45", "gymmboxx", "thegympod", "ufcgym", "yogamovement", "pureyoga", "boutiquegym"
+        ]
+      },
+      "Golf Courses": {
+        "mcc": 7992,
+        "tags": [
+          "golf", "golfcourse", "countryclub", "greenfees", "marinabaygolf", "sentosagolf", "nsrcc", "orchidcountryclub", "putting", "drivingrange"
+        ]
+      },
+      "Sports Clubs": {
+        "mcc": 7941,
+        "tags": [
+          "sportsclub", "club", "membership", "swimming", "tennis", "badminton", "soccer", "sportsteam", "safra", "hometeamns", "activesg"
+        ]
+      }
+    },
+    "Services - Personal": {
+      "Barber & Beauty": {
+        "mcc": 7230,
+        "tags": [
+          "barber", "jeanyipbeauty", "shimmerandshine", "jeanyiphairdressing", "barbershop", "haircut", "hair", "beauty", "grooming", "hairstylist", "salon", "hairsalon", "shave", "personalcare", "qbhouse", "kimage", "toniandguy", "vidalsassoon"
+        ]
+      },
+      "Spas": {
+        "mcc": 7298,
+        "tags": [
+          "spa", "spas", "kskin", "wellness", "relaxation", "onsen", "massage", "bodytreatment", "facial", "ikedaspa", "spaesprit", "aramsaspa", "elementswellness", "banyantreespa"
+        ]
+      },
+      "Massage": {
+        "mcc": 7297,
+        "tags": [
+          "massage", "tcm", "reflexology", "wellness", "deep_tissue", "footmassage", "bodymassage", "therapeutic", "natureland", "wanyang", "kenko", "qimantra"
+        ]
+      },
+      "Dry Cleaners": {
+        "mcc": 7216,
+        "tags": [
+          "drycleaner", "drycleaning", "laundryservice", "garmentcare", "ironing", "pressing", "stainremoval", "prestodrycleaners"
+        ]
+      },
+      "Laundry": {
+        "mcc": 7211,
+        "tags": [
+          "laundry", "wash", "washing", "selfservice", "laundromat", "coinlaundry", "washandfold", "drying", "laundrymart", "laundryroom"
+        ]
+      },
+      "Photo Studios": {
+        "mcc": 7221,
+        "tags": [
+          "photostudio", "studio", "portrait", "photoshoot", "passportphoto", "weddingphoto", "familyphoto", "photobooth"
+        ]
+      }
+    },
+    "Services - Auto": {
+      "Gas Stations": {
+        "mcc": 5541,
+        "tags": [
+          "gasstation", "petrol", "fuel", "diesel", "gas", "servicestation", "shell", "esso", "caltex", "spc", "sinopec", "mobil", "bp"
+        ]
+      },
+      "Auto Parts": {
+        "mcc": 5533,
+        "tags": [
+          "autoparts", "carparts", "spareparts", "accessories", "tyres", "tires", "batteries", "caraccessories", "autobacs"
+        ]
+      },
+      "Auto Service": {
+        "mcc": 7538,
+        "tags": [
+          "autoservice", "workshop", "carrepair", "autorepair", "maintenance", "mechanic", "garage", "servicing", "alignment", "tyreservice", "sparkcarcare", "autopoint"
+        ]
+      },
+      "Car Wash": {
+        "mcc": 7542,
+        "tags": [
+          "carwash", "autowash", "detailing", "cardetailing", "cleaning", "waxing", "polish", "autoglam", "carspa"
+        ]
+      },
+      "Parking": {
+        "mcc": 7523,
+        "tags": [
+          "parking", "carpark", "garage", "parkinglot", "seasonparking", "mallparking", "airportparking", "streetparking"
+        ]
+      }
+    },
+    "Services - Professional": {
+      "Doctors": {
+        "mcc": 8011,
+        "tags": [
+          "doctor", "clinic", "gp", "medical", "healthcare", "specialist", "cardiology", "orthopaedic", "dermatology", "telehealth", "doctoranywhere", "whitecoat"
+        ]
+      },
+      "Dentists": {
+        "mcc": 8021,
+        "tags": [
+          "dentist", "dental", "orthodontics", "oralcare", "teeth", "cleaning", "braces", "qandm", "idental", "ntucdental", "ismiledentalsurgery"
+        ]
+      },
+      "Hospitals": {
+        "mcc": 8062,
+        "tags": [
+          "hospital", "medicalcentre", "healthcare", "emergency", "sgh", "nuh", "tths", "kkh", "mounte", "gleneagles", "raffleshospital", "parkway"
+        ]
+      },
+      "Attorneys": {
+        "mcc": 8111,
+        "tags": [
+          "attorney", "lawyer", "legal", "lawfirm", "solicitor", "legaladvice", "conveyancing", "litigation"
+        ]
+      },
+      "Accounting": {
+        "mcc": 8931,
+        "tags": [
+          "accounting", "accountant", "audit", "bookkeeping", "tax", "taxfiling", "professionalservices", "corporateservices"
+        ]
+      }
+    },
+    "Utilities": {
+      "Electric / Gas / Water": {
+        "mcc": 4900,
+        "tags": [
+          "utilities", "electricity", "power", "energy", "gas", "water", "utilitybill", "billing", "monthlybill", "spgroup", "spservices", "geneco", "sembcorp", "tuaspower", "kepplelectric", "utilitycompany"
+        ]
+      },
+      "Telecom Services": {
+        "mcc": 4814,
+        "tags": [
+          "telecom", "telco", "mobile", "phoneplan", "data", "broadband", "fibre", "internet", "roaming", "singtel", "starhub", "m1", "gomo", "giga", "simba", "circleslife", "att", "verizon", "tmobile", "vodafone"
+        ]
+      },
+      "Cable / Satellite TV": {
+        "mcc": 4899,
+        "tags": [
+          "tv", "cabletv", "satellitetv", "iptv", "television", "subscription", "starhubtv", "singteltv", "astro", "skytv", "dishnetwork", "directv"
+        ]
+      }
+    },
+    "Education": {
+      "Schools (K-12)": {
+        "mcc": 8211,
+        "tags": [
+          "school", "k12", "primaryschool", "secondaryschool", "highschool", "education", "tuition", "learning", "internationalSchool", "uwc", "sas", "tts", "acs", "ri", "dunmanhigh"
+        ]
+      },
+      "Colleges & Universities": {
+        "mcc": 8220,
+        "tags": [
+          "college", "university", "uni", "tertiary", "highereducation", "degree", "diploma", "masters", "phd", "nus", "ntu", "smu", "sutd", "sim", "nafa", "lasalle", "harvard", "mit", "stanford", "oxford", "cambridge"
+        ]
+      },
+      "Vocational Schools": {
+        "mcc": 8249,
+        "tags": [
+          "vocational", "skills", "training", "course", "adultlearning", "professional", "certification", "bootcamp", "ite", "kaplan", "psb", "lithan", "musicacademy", "codeschool", "tradeSchool"
+        ]
+      }
+    },
+    "Government": {
+      "Tax Payments": {
+        "mcc": 9311,
+        "tags": [
+          "tax", "taxes", "taxpayment", "governmenttax", "incometax", "gst", "propertytax", "corporatetax", "iras", "acra", "ato", "hmrc", "irs"
+        ]
+      },
+      "Fines": {
+        "mcc": 9222,
+        "tags": [
+          "fine", "fines", "penalty", "summons", "ticket", "violation", "offence", "ltafine", "trafficfine", "parkingfine", "nea", "hdb"
+        ]
+      },
+      "Court Costs": {
+        "mcc": 9211,
+        "tags": [
+          "court", "courtcosts", "judicial", "legalfees", "filingfees", "hearingfees", "statecourt", "supremecourt", "familycourt"
+        ]
+      },
+      "Govt Services (Misc)": {
+        "mcc": 9399,
+        "tags": [
+          "government", "govservice", "publicservice", "licensing", "permits", "passport", "visa", "identification", "ica", "mom", "hdb", "lta", "nparks", "pub", "govtech"
+        ]
+      }
+    },
+    "Financial": {
+      "Insurance": {
+        "mcc": 6300,
+        "tags": [
+          "insurance", "premium", "lifeinsurance", "healthinsurance", "carinsurance", "travelinsurance", "coverage", "ntucincome", "aia", "prudential", "greateastern", "manulife", "axa", "singlife", "fwd", "allianz", "aig", "metlife"
+        ]
+      },
+      "Securities & Brokers": {
+        "mcc": 6211,
+        "tags": [
+          "broker", "brokerage", "stocktrading", "trading", "investment", "securities", "stocks", "etf", "shares", "portfolio", "dbsvickers", "ocbcsecurities", "uobkayhian", "poems", "tigerbrokers", "moomoo", "saxo", "interactivebrokers", "robinhood", "etrade", "fidelity", "schwab"
+        ]
+      },
+      "Real Estate": {
+        "mcc": 6513,
+        "tags": [
+          "realestate", "property", "rent", "rental", "leasing", "landlord", "management", "propertyagent", "hdb", "condo", "officelease"
+        ]
+      }
+    }
+  }
+}

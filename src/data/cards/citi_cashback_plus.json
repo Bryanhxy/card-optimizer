@@ -1,0 +1,52 @@
+{
+  "card_id": "citi_cashback_plus",
+  "card_name": "Citi Cash Back+",
+  "bank": "Citibank",
+  "network": "Mastercard",
+  "color": "#0066B3",
+  "image": "/images/cards/citi_cashback_plus.png",
+  "currency": "cashback",
+  "currency_name": "Cash Back",
+  "annual_fee": 196.20,
+  "annual_fee_waiver": "First year waived",
+
+  "rules": [
+    {
+      "rule_id": "all_spend",
+      "description": "1.6% on all retail spend",
+      "rate": 1.6,
+      "conditions": {
+        "channels": ["online", "contactless", "offline"],
+        "mcc_whitelist_mode": "all_except_blacklist"
+      }
+    }
+  ],
+
+  "base_rate": {
+    "rate": 1.6,
+    "description": "1.6% on all retail spend"
+  },
+
+  "global_mcc_blacklist": [
+    4829, 4900,
+    5199, 5960, 5993,
+    6012, 6050, 6051, 6211, 6300, 6513,
+    6529, 6530, 6534, 6540,
+    7349, 7511, 7523, 7800, 7995,
+    8062, 8211, 8220, 8241, 8244, 8249, 8299, 8398, 8651, 8661,
+    9211, 9222, 9223, 9311, 9399, 9402, 9405, 9754
+  ],
+
+  "excluded_merchants": [
+    "AXS", "BUS/MRT", "EZ-link", "SAM", "SIMPLYGO",
+    "SPL AUTO", "SPL ATU", "SPL ONLINE", "TRANSIT",
+    "Transit Link", "Youtrip"
+  ],
+
+  "notes": [
+    "Flat 1.6% on all retail spend - no categories, no min spend, no cap",
+    "Citi Plus members get extra 0.4% (total 2%) on Mastercard variant",
+    "Cashback credited in $10 blocks (min $50 accumulated)",
+    "Cashback never expires"
+  ]
+}

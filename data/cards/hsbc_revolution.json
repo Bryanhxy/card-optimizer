@@ -1,0 +1,91 @@
+{
+  "card_id": "hsbc_revolution",
+  "card_name": "HSBC Revolution",
+  "bank": "HSBC",
+  "network": "Visa",
+  "color": "#DB0011",
+  "image": "/images/cards/hsbc_revolution.png",
+  "currency": "points",
+  "currency_name": "HSBC Reward Points",
+  "annual_fee": 0,
+  "rules": [
+    {
+      "rule_id": "online_dining",
+      "description": "Online dining",
+      "rate": 10,
+      "conditions": {
+        "channels": ["online"],
+        "mcc_whitelist": [5441, 5462, 5811, 5812, 5813]
+      },
+      "caps": { "max_qualifying_spend_monthly": 1000, "cap_type": "shared" }
+    },
+    {
+      "rule_id": "online_shopping",
+      "description": "Online shopping",
+      "rate": 10,
+      "conditions": {
+        "channels": ["online"],
+        "mcc_whitelist": [4816, 5045, 5262, 5309, 5310, 5311, 5331, 5399, 5611, 5621, 5631, 5641, 5651, 5655, 5661, 5691, 5699, 5732, 5733, 5734, 5735, 5912, 5942, 5944, 5945, 5946, 5947, 5948, 5949, 5964, 5965, 5966, 5967, 5968, 5969, 5970, 5992, 5999]
+      },
+      "caps": { "max_qualifying_spend_monthly": 1000, "cap_type": "shared" }
+    },
+    {
+      "rule_id": "online_transport",
+      "description": "Online ride-hailing (Grab, Gojek)",
+      "rate": 10,
+      "conditions": { "channels": ["online"], "mcc_whitelist": [4121] },
+      "caps": { "max_qualifying_spend_monthly": 1000, "cap_type": "shared" }
+    },
+    {
+      "rule_id": "online_membership",
+      "description": "Online membership/gyms",
+      "rate": 10,
+      "conditions": { "channels": ["online"], "mcc_whitelist": [7997] },
+      "caps": { "max_qualifying_spend_monthly": 1000, "cap_type": "shared" }
+    },
+    {
+      "rule_id": "promo_contactless_shopping",
+      "description": "[PROMO] Contactless shopping/dining",
+      "rate": 10,
+      "conditions": {
+        "channels": ["contactless"],
+        "mcc_whitelist": [4816, 5045, 5262, 5309, 5310, 5311, 5331, 5399, 5441, 5462, 5611, 5621, 5631, 5641, 5651, 5655, 5661, 5691, 5699, 5732, 5733, 5734, 5735, 5811, 5812, 5813, 5912, 5942, 5944, 5945, 5946, 5947, 5948, 5949, 5964, 5965, 5966, 5967, 5968, 5969, 5970, 5992, 5999]
+      },
+      "caps": { "max_qualifying_spend_monthly": 1500, "cap_type": "shared" },
+      "promo_period": { "start": "2025-07-01", "end": "2026-02-28" }
+    },
+    {
+      "rule_id": "promo_online_travel",
+      "description": "[PROMO] Online travel (direct booking)",
+      "rate": 10,
+      "conditions": {
+        "channels": ["online"],
+        "mcc_whitelist_ranges": [{"start": 3000, "end": 3350}, {"start": 3351, "end": 3500}, {"start": 3501, "end": 3999}],
+        "mcc_whitelist": [4411, 4511],
+        "mcc_blacklist": [4722]
+      },
+      "caps": { "max_qualifying_spend_monthly": 1500, "cap_type": "shared" },
+      "promo_period": { "start": "2025-07-01", "end": "2026-02-28" }
+    },
+    {
+      "rule_id": "promo_contactless_travel",
+      "description": "[PROMO] Contactless travel",
+      "rate": 10,
+      "conditions": {
+        "channels": ["contactless"],
+        "mcc_whitelist_ranges": [{"start": 3000, "end": 3350}, {"start": 3351, "end": 3500}, {"start": 3501, "end": 3999}],
+        "mcc_whitelist": [4411, 4511],
+        "mcc_blacklist": [4722]
+      },
+      "caps": { "max_qualifying_spend_monthly": 1500, "cap_type": "shared" },
+      "promo_period": { "start": "2025-07-01", "end": "2026-02-28" }
+    }
+  ],
+  "base_rate": { "rate": 1 },
+  "global_mcc_blacklist": [4829, 4900, 5199, 5960, 6010, 6011, 6012, 6050, 6051, 6211, 6300, 6513, 6529, 6530, 6532, 6533, 6534, 6536, 6537, 6538, 6540, 6555, 7299, 7349, 7399, 7511, 7523, 7801, 7995, 8062, 8211, 8220, 8241, 8244, 8249, 8299, 8398, 8651, 8661, 8999, 9211, 9222, 9223, 9311, 9399, 9402, 9405, 9754],
+  "conversions": {
+    "krisflyer": { "ratio": 3 }
+  },
+  "notes": ["Bonus cap SHARED across all rules", "MCC 5814 (Fast Food) NOT included", "MCC 4722 (OTAs) excluded even during promo"],
+  "points_expiry": "37 months"
+}

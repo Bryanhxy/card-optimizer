@@ -1,0 +1,100 @@
+{
+  "card_id": "citi_cashback",
+  "card_name": "Citi Cash Back",
+  "bank": "Citibank",
+  "network": "Mastercard",
+  "color": "#0066B3",
+  "image": "/images/cards/citi_cashback.png",
+  "currency": "cashback",
+  "currency_name": "Cash Back",
+  "annual_fee": 196.20,
+  "annual_fee_waiver": "First year waived",
+  "min_spend_monthly": 800,
+
+  "rules": [
+    {
+      "rule_id": "private_commute",
+      "description": "8% on private commute (Grab, Gojek, taxis)",
+      "rate": 8,
+      "conditions": {
+        "channels": ["online", "contactless", "offline"],
+        "mcc_whitelist": [4121],
+        "transaction_description_whitelist": [
+          "GRAB", "COMFORT", "CITYCAB", "GOJEK", "CABCHARGE ASIA",
+          "TADA", "RYDE", "TRANSCAB", "PREMIER TAXIS", "STRIDES TAXI"
+        ]
+      },
+      "caps": {
+        "max_cashback_monthly": 80,
+        "cap_type": "shared"
+      }
+    },
+    {
+      "rule_id": "petrol",
+      "description": "8% on petrol",
+      "rate": 8,
+      "conditions": {
+        "channels": ["online", "contactless", "offline"],
+        "mcc_whitelist": [5541, 5542]
+      },
+      "caps": {
+        "max_cashback_monthly": 80,
+        "cap_type": "shared"
+      }
+    },
+    {
+      "rule_id": "dining",
+      "description": "6% on dining",
+      "rate": 6,
+      "conditions": {
+        "channels": ["online", "contactless", "offline"],
+        "mcc_whitelist": [5811, 5812, 5814]
+      },
+      "caps": {
+        "max_cashback_monthly": 80,
+        "cap_type": "shared"
+      }
+    },
+    {
+      "rule_id": "groceries",
+      "description": "6% on groceries",
+      "rate": 6,
+      "conditions": {
+        "channels": ["online", "contactless", "offline"],
+        "mcc_whitelist": [5411]
+      },
+      "caps": {
+        "max_cashback_monthly": 80,
+        "cap_type": "shared"
+      }
+    }
+  ],
+
+  "base_rate": {
+    "rate": 0.2,
+    "description": "0.2% on all other retail spend"
+  },
+
+  "global_mcc_blacklist": [
+    4829, 4900,
+    5199, 5960, 5993,
+    6012, 6050, 6051, 6211, 6300, 6513,
+    6529, 6530, 6534, 6540,
+    7349, 7511, 7523, 7800, 7995,
+    8062, 8211, 8220, 8241, 8244, 8249, 8299, 8398, 8651, 8661,
+    9211, 9222, 9223, 9311, 9399, 9402, 9405, 9754
+  ],
+
+  "excluded_merchants": [
+    "AXS", "BUS/MRT", "EZ-link", "SAM", "SIMPLYGO",
+    "SPL AUTO", "SPL ATU", "SPL ONLINE", "TRANSIT",
+    "Transit Link", "Youtrip"
+  ],
+
+  "notes": [
+    "Requires $800 min spend to unlock bonus rates",
+    "$80 combined cap across all bonus categories",
+    "Without $800 min spend, only 0.2% base rate applies",
+    "Cashback credited monthly, auto-offset against bill"
+  ]
+}

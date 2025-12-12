@@ -1,0 +1,65 @@
+{
+  "card_id": "uob_ppv",
+  "earn_block": 5,
+  "card_name": "UOB Preferred Platinum Visa",
+  "bank": "UOB",
+  "network": "Visa",
+  "color": "#1A237E",
+  "image": "/images/cards/uob_ppv.png",
+  "currency": "points",
+  "currency_name": "UNI$",
+  "annual_fee": 196.20,
+  "annual_fee_waiver_first_year": true,
+
+  "rules": [
+    {
+      "rule_id": "mobile_contactless_10x",
+      "description": "10X UNI$ on mobile contactless payments",
+      "rate": 10,
+      "conditions": {
+        "channels": ["contactless"],
+        "requires_mobile_wallet": true,
+        "mcc_whitelist_mode": "all_except_blacklist"
+      },
+      "caps": {
+        "max_qualifying_spend_monthly": 1110,
+        "cap_type": "shared"
+      }
+    },
+    {
+      "rule_id": "online_shopping_entertainment_10x",
+      "description": "10X UNI$ on eligible online shopping & entertainment",
+      "rate": 10,
+      "conditions": {
+        "channels": ["online"],
+        "mcc_whitelist": [
+            5311,
+            5611, 5621, 5631, 5641, 5651, 5655, 5661, 5691, 5699,
+            5944, 5948,
+            5732, 5733, 5734, 5735,
+            5815, 5816, 5817, 5818,
+            4121,
+            5811, 5812, 5814
+        ],
+        "excludes_travel": true
+      },
+      "caps": {
+        "max_qualifying_spend_monthly": 1110,
+        "cap_type": "shared"
+      }
+    }
+  ],
+  "base_rate": { "rate": 1 },
+  "global_mcc_blacklist": [4829, 4900, 5199, 5960, 6010, 6011, 6012, 6050, 6051, 6211, 6300, 6513, 6529, 6530, 6532, 6533, 6534, 6536, 6537, 6538, 6540, 6555, 7349, 7511, 7523, 7800, 7801, 7995, 8062, 8211, 8220, 8241, 8244, 8249, 8299, 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405, 9754],
+  "conversions": {
+    "krisflyer": { "ratio": 0.5 } 
+  },
+  "notes": [
+    "10X UNI$ equivalent to 4 miles per dollar",
+    "10X UNI$ earn rate shared across online and mobile contactless (S$1,110 cap per month)",
+    "Only transactions of S$5 and above earn UNI$",
+    "Travel-related MCCs online are excluded",
+    "Mobile contactless must use Apple/Google/Samsung Pay"
+  ],
+  "points_expiry": "2 years"
+}

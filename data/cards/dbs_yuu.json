@@ -1,0 +1,91 @@
+{
+  "card_id": "dbs_yuu",
+  "card_name": "DBS Yuu",
+  "bank": "DBS",
+  "network": "Visa",
+  "color": "#E31837",
+  "image": "/images/cards/dbs_yuu.png",
+  "currency": "points",
+  "currency_name": "yuu Points",
+  "annual_fee": 196.20,
+  "annual_fee_waiver": "First year waived",
+  "min_spend_monthly": 800,
+  "min_merchants_monthly": 4,
+
+  "rules": [
+    {
+      "rule_id": "yuu_merchants_bonus",
+      "description": "18% (10 mpd) at yuu partners with $800 min spend + 4 merchants",
+      "rate": 36,
+      "conditions": {
+        "channels": ["online", "contactless", "offline"],
+        "merchant_whitelist": [
+          "Cold Storage", "CS Fresh", "Giant", "Guardian", "7-Eleven",
+          "BreadTalk", "Toast Box", "Food Republic", "Delifrance",
+          "foodpanda", "Gojek", "Mandai Zoo", "Bird Paradise", "River Wonders",
+          "Singtel", "Eu Yan Sang", "Noel Gifts", "IKEA", "Sephora"
+        ]
+      },
+      "caps": {
+        "max_bonus_points_monthly": 15600,
+        "note": "Bonus 13% capped at $600 spend equivalent"
+      }
+    },
+    {
+      "rule_id": "yuu_merchants_base",
+      "description": "5% at yuu partners (no min spend)",
+      "rate": 10,
+      "conditions": {
+        "channels": ["online", "contactless", "offline"],
+        "merchant_whitelist": [
+          "Cold Storage", "CS Fresh", "Giant", "Guardian", "7-Eleven",
+          "BreadTalk", "Toast Box", "Food Republic", "Delifrance",
+          "foodpanda", "Gojek", "Mandai Zoo", "Bird Paradise", "River Wonders",
+          "Singtel", "Eu Yan Sang", "Noel Gifts", "IKEA", "Sephora"
+        ]
+      },
+      "caps": {
+        "note": "No cap on base 5% rebates"
+      }
+    },
+    {
+      "rule_id": "simplygo",
+      "description": "Up to 18% on SimplyGo",
+      "rate": 36,
+      "conditions": {
+        "channels": ["contactless"],
+        "merchant_whitelist": ["SimplyGo", "BUS/MRT", "SMRT", "SBS Transit"]
+      },
+      "caps": {
+        "note": "Counts as 1 of 4 required merchants"
+      }
+    }
+  ],
+
+  "base_rate": {
+    "rate": 1,
+    "description": "0.5% (0.14 mpd) on all other spend"
+  },
+
+  "conversions": {
+    "krisflyer": {
+      "ratio": 3.6,
+      "note": "3.6 yuu Points = 1 KrisFlyer mile"
+    },
+    "cashback": {
+      "ratio": 2,
+      "note": "2 yuu Points = $0.01 (0.5% rebate)"
+    }
+  },
+
+  "notes": [
+    "From Oct 2025: Requires $800 min spend + 4 different yuu merchants to unlock 18%",
+    "Without meeting criteria, earn 5% at yuu merchants (uncapped)",
+    "36 yuu Points per $1 = 18% rebate OR 10 mpd to KrisFlyer",
+    "Bonus capped at 15,600 points/month ($600 spend at yuu merchants)",
+    "yuu Points redeemable via yuu App at partner merchants",
+    "3.25% foreign currency fee (Visa)"
+  ],
+
+  "points_expiry": "2 years"
+}

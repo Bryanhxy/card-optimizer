@@ -1,0 +1,115 @@
+{
+  "card_id": "ocbc_365",
+  "card_name": "OCBC 365",
+  "bank": "OCBC",
+  "network": "Visa",
+  "color": "#9B59B6",
+  "image": "/images/cards/ocbc_365.png",
+  "currency": "cashback",
+  "currency_name": "Cashback",
+  "annual_fee": 196.20,
+  "annual_fee_waiver_first_year": true,
+  "annual_fee_waiver_second_year": true,
+  "min_spend_monthly": 800,
+  "min_spend_tiers": [
+    { "min_spend": 800, "max_cashback": 80 },
+    { "min_spend": 1600, "max_cashback": 160 }
+  ],
+
+  "rules": [
+    {
+      "rule_id": "petrol_6pct",
+      "description": "6% cashback on petrol",
+      "rate": 6,
+      "rate_type": "cashback_percent",
+      "conditions": {
+        "channels": ["offline", "contactless"],
+        "mcc_whitelist": [5541, 5542]
+      },
+      "caps": { "max_cashback_monthly": 160, "cap_type": "shared" }
+    },
+    {
+      "rule_id": "dining_5pct",
+      "description": "5% cashback on dining & food delivery",
+      "rate": 5,
+      "rate_type": "cashback_percent",
+      "conditions": {
+        "channels": ["online", "offline", "contactless"],
+        "mcc_whitelist": [5811, 5812, 5814]
+      },
+      "caps": { "max_cashback_monthly": 160, "cap_type": "shared" }
+    },
+    {
+      "rule_id": "groceries_3pct",
+      "description": "3% cashback on groceries",
+      "rate": 3,
+      "rate_type": "cashback_percent",
+      "conditions": {
+        "channels": ["online", "offline", "contactless"],
+        "mcc_whitelist": [5411]
+      },
+      "caps": { "max_cashback_monthly": 160, "cap_type": "shared" }
+    },
+    {
+      "rule_id": "transport_3pct",
+      "description": "3% cashback on land transport (Grab, taxi, MRT)",
+      "rate": 3,
+      "rate_type": "cashback_percent",
+      "conditions": {
+        "channels": ["online", "offline", "contactless"],
+        "mcc_whitelist": [4011, 4111, 4112, 4121, 4131]
+      },
+      "caps": { "max_cashback_monthly": 160, "cap_type": "shared" }
+    },
+    {
+      "rule_id": "streaming_3pct",
+      "description": "3% cashback on streaming (Spotify, Apple, Netflix)",
+      "rate": 3,
+      "rate_type": "cashback_percent",
+      "conditions": {
+        "channels": ["online"],
+        "mcc_whitelist": [4899]
+      },
+      "caps": { "max_cashback_monthly": 160, "cap_type": "shared" }
+    },
+    {
+      "rule_id": "ev_charging_3pct",
+      "description": "3% cashback on EV charging",
+      "rate": 3,
+      "rate_type": "cashback_percent",
+      "conditions": {
+        "channels": ["offline", "contactless"],
+        "mcc_whitelist": [5552]
+      },
+      "caps": { "max_cashback_monthly": 160, "cap_type": "shared" }
+    },
+    {
+      "rule_id": "watsons_3pct",
+      "description": "3% cashback at Watsons",
+      "rate": 3,
+      "rate_type": "cashback_percent",
+      "conditions": {
+        "channels": ["online", "offline", "contactless"],
+        "merchant_whitelist": ["Watsons"]
+      },
+      "caps": { "max_cashback_monthly": 160, "cap_type": "shared" }
+    }
+  ],
+  "base_rate": { "rate": 0.25, "rate_type": "cashback_percent" },
+  "global_mcc_blacklist": [
+    4784, 4829, 5047, 5199, 5262, 5960, 5993,
+    6010, 6012, 6051, 6211, 6300, 6513, 6540,
+    7349, 7523, 7995,
+    8062, 8211, 8220, 8241, 8244, 8249, 8299, 8398, 8651, 8661, 8675, 8699,
+    9211, 9222, 9223, 9311, 9399, 9402, 9405
+  ],
+  "excluded_merchants": ["EZ-Link", "Transit Link", "Shopee Pay"],
+  "notes": [
+    "Requires $800 min spend/month for bonus rates (cap $80)",
+    "Or $1,600 min spend/month for higher cap ($160)",
+    "Below min spend = 0.25% on everything",
+    "Recurring telco/electricity bills also earn 3%",
+    "EZ-Link/Transit Link top-ups excluded, but contactless MRT payment earns 3%",
+    "Food delivery (GrabFood, Foodpanda, Deliveroo) earns 5% under dining"
+  ]
+}

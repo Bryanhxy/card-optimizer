@@ -1,0 +1,87 @@
+{
+  "card_id": "ocbc_rewards",
+  "earn_block": 5,
+  "card_name": "OCBC Rewards",
+  "bank": "OCBC",
+  "network": "Mastercard",
+  "color": "#E60012",
+  "image": "/images/cards/ocbc_rewards.png",
+  "currency": "points",
+  "currency_name": "OCBC$",
+  "annual_fee": 196.20,
+  "annual_fee_waiver_first_year": true,
+  "annual_fee_waiver_second_year": true,
+
+  "rules": [
+    {
+      "rule_id": "promo_15x_online_platforms",
+      "description": "[PROMO] 15X at Lazada, Shopee, Taobao, TikTok Shop, Watsons (6 mpd)",
+      "rate": 15,
+      "conditions": {
+        "channels": ["online", "offline", "contactless"],
+        "merchant_whitelist": ["Lazada", "Shopee", "Taobao", "TikTok Shop", "Watsons", "Guardian", "NTUC Unity"]
+      },
+      "caps": {
+        "max_bonus_points_monthly": 5000,
+        "note": "Extra 5,000 OCBC$ on top of regular 10,000 cap"
+      },
+      "promo_period": {
+        "start": "2025-01-01",
+        "end": "2025-12-31"
+      }
+    },
+    {
+      "rule_id": "shopping_10x",
+      "description": "10X on shopping categories (4 mpd)",
+      "rate": 10,
+      "conditions": {
+        "channels": ["online", "offline", "contactless"],
+        "mcc_whitelist": [
+          5309, 5311,
+          5611, 5621, 5631, 5641, 5651, 5655, 5661, 5691, 5699,
+          5941, 5948
+        ]
+      },
+      "caps": {
+        "max_bonus_points_monthly": 10000,
+        "max_qualifying_spend_monthly": 1000,
+        "cap_type": "shared"
+      }
+    },
+    {
+      "rule_id": "online_merchants_10x",
+      "description": "10X at selected online merchants (4 mpd)",
+      "rate": 10,
+      "conditions": {
+        "channels": ["online"],
+        "merchant_whitelist": ["Alibaba", "AliExpress", "Amazon", "Daigou", "Ezbuy", "Guardian", "Lazada", "Mustafa Centre", "NTUC Unity", "Qoo10", "Shopee", "Taobao", "TikTok Shop", "Watsons"]
+      },
+      "caps": {
+        "max_bonus_points_monthly": 10000,
+        "max_qualifying_spend_monthly": 1000,
+        "cap_type": "shared"
+      }
+    }
+  ],
+  "base_rate": { "rate": 1 },
+  "global_mcc_blacklist": [
+    4784, 4829, 4900, 5047, 5199, 5960, 5993,
+    6010, 6012, 6051, 6211, 6300, 6513, 6540,
+    7349, 7523, 7995,
+    8062, 8211, 8220, 8241, 8244, 8249, 8299, 8398, 8651, 8661, 8675, 8699,
+    9211, 9222, 9223, 9311, 9399, 9402, 9405
+  ],
+  "excluded_merchants": ["GrabPay", "Youtrip", "Shopee Pay", "Singtel Dash", "NETS Flashpay", "Ez-Link", "TransitLink"],
+  "conversions": {
+    "krisflyer": { "ratio": 2.5 }
+  },
+  "notes": [
+    "Earns in $5 blocks - transactions under $5 earn nothing",
+    "10X = 50 OCBC$ per $5 = 4 mpd to KrisFlyer",
+    "15X promo = 75 OCBC$ per $5 = 6 mpd (until Dec 2025)",
+    "Bonus cap: 10,000 OCBC$ per month (+ 5,000 for promo merchants)",
+    "MCC 5411 (Supermarkets) excluded from bonus",
+    "Shopee Pay transactions under MCC 5262 excluded entirely"
+  ],
+  "points_expiry": "2 years"
+}
